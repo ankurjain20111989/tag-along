@@ -43,10 +43,6 @@ public class ItemActivity extends AppCompatActivity implements AdapterView.OnIte
         Bundle extras=getIntent().getExtras();
         Id=extras.getString("ID");
 
-        Toast.makeText(getApplicationContext(),
-                Id,
-                Toast.LENGTH_LONG).show();
-
 
     }
 

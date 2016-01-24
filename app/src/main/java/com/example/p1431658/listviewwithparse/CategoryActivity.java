@@ -6,7 +6,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
-import android.widget.Toast;
 
 import com.parse.FindCallback;
 import com.parse.ParseException;
@@ -49,9 +48,6 @@ public class CategoryActivity extends AppCompatActivity implements AdapterView.O
     @Override
     public void onResume(){
         super.onResume();
-        Toast.makeText(getApplicationContext(),
-                "On Resume",
-                Toast.LENGTH_LONG).show();
         updateData();
 
     }
