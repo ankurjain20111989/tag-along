@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.p1431658.listviewwithparse" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:name=".ParseApplication">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ActivityActivity"
+            android:label="Pick a activity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".CategoryActivity"
+            android:theme="@style/AppThemes"
+            android:label="Pick a category" />
+        <activity
+            android:name=".ItemActivity"
+            android:theme="@style/AppThemes"
+            android:label="Pick a item" />
+        <activity
+            android:name=".MapsActivity"
+            android:label="Map" />
+        <activity
+            android:name=".DineActivity"
+            android:label="Dine" />
+        <activity
+            android:name=".RecipientsActivity"
+            android:label="Recipients" />
+        <activity
+            android:name=".LeftRight"
+            android:label="Choose" />
+        <activity
+            android:name=".FindFriends"
+            android:label="Friends" />
+        <meta-data
+            android:name="com.parse.APPLICATION_ID"
+            android:value="PPJn42VJb39taSGw5tDIpxVTHTNKGabiSNy2EKD7" />
+        <meta-data
+            android:name="com.parse.CLIENT_KEY"
+            android:value="2kYKYsDBQGwZJTB5thIKi7DitQK0MDRDFXQKoUE7" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".TryOut" >
+        </activity>
+        <activity
+            android:name=".MainPage"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_main_page"
+            android:theme="@style/FullscreenTheme" >
+        </activity>
+    </application>
+
+</manifest><!--
+     The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+     Google Maps Android API v2, but you must specify either coarse or fine
+     location permissions for the 'MyLocation' functionality.
+-->

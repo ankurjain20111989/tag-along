@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ListViewWithParse</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="connect">Connect</string>
+    <string name="discover">Discover</string>
+    <string name="register">Register</string>
+    <string name="send">Send</string>
+    <string name="title_activity_find_friends">FindFriends</string>
+
+    <string name="title_activity_main_page">MainPage</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>
